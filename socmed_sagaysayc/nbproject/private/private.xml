@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/models/add_post.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/models/load_timeline.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/models/load_user_posts.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/models/login_account.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/models/logout_account.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/models/signup_account.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/index.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/login.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/profile.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/timeline.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/views/res/style.css</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/views/footer.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/views/header.php</file>
+            <file>file:/C:/xampp/htdocs/socmed_sagaysayc/db/dbconnect.php</file>
+        </group>
+    </open-files>
+</project-private>

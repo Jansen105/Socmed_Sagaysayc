@@ -1,0 +1,326 @@
+body{
+    background: linear-gradient(to right,#ff9999, #ff9999);
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+}
+.input-form{
+    background-color: #ffcccc;
+    width: min(90%, 400px);
+    margin: 2em auto;
+    padding: 1.5em;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+}
+input{
+    width: 95%;
+    display: block;
+    margin: .5em auto;
+    margin-top: .1em;
+    padding: .5em .2em;
+    outline-color: #ffcccc;
+    border-radius: 10px;
+}
+label {
+    font-size: .85em;
+    color: black;
+   
+}
+input[type='submit']{
+    background-color: #ffcccc;
+    color: black;
+    border-radius: 5px;
+    padding: .7em;
+}
+.alert{
+    text-align: center;
+    font-size: .8em;
+    color: black;
+    
+}
+.title{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+input[type='submit']:hover{
+    background-color: #ffcc99;
+}
+.navbar{
+    width: 100%;
+    background-color: #ffcccc;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.right-link{
+    width: 20%;
+    margin-left: auto;
+}
+li{
+    display: inline-block;
+    padding: 1em;
+}
+.right-link a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+.right-link a:hover{
+    background-color: beige;
+}
+.right-link active{
+    background-color: #ffcccc;
+}
+.left-link{
+    display: inline-block;
+    width:70%;
+    margin: 0px;
+    margin-right: auto;
+}
+.left-link a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.logo{
+    background-image: url('logo.jpg');
+    background-size: 50%;
+    padding: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    min-height: 75vh;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #ffcccc;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 0px #00000055;
+    position: relative;
+}
+.banner{
+    min-height: 20vh;
+    width: 100%;
+    background-color: #ffcccc;
+    padding: .5em;
+    background-image: url("backg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner-name{
+    font-size: 2em;
+    color: black;
+    position: absolute;
+    left: 35vh;
+    bottom:-5vh;
+}
+.post-container{
+    margin: 2vh;
+    margin-top: 15vh;
+}
+.post-form{
+    width: 50%;
+    margin: auto;
+}
+#post-area{
+    display: block;
+    resize: none;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 15px;
+}
+#post-button{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+.post-block{
+    padding: .5em;
+    margin: .5em .5em;
+    border: solid .5px #0666;
+    border-radius: 5px;
+}
+.post-name{
+    font-weight: bold;
+}
+.post-content{
+    margin-top: .5em;
+    padding-left: 1em;
+}
+.pro-pic{
+    background-image: url('prof_pic.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: #ffcccc;
+    border: solid 5px #fff;
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    bottom: -10vh;
+    left: 10vh;
+    z-index: 100;
+    box-shadow: 2px 2px 2px 0px #140a1455;
+}
+/* POSTS */
+.post-container {
+    margin: 2em;
+    margin-top: 80px;
+}
+
+.post-form {
+    width: min(90%, 600px);
+    margin: auto;
+}
+
+.post-area {
+    display: block;
+    resize: none;
+    width: 100%;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #ffcc99;
+}
+
+#post-button {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.post-block {
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 10px;
+    background-color: #ffcccc;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    width: min(90%, 600px);
+}
+
+.post-name {
+    font-weight: bold;
+    color: #222;
+}
+
+.post-content {
+    margin-top: .5em;
+    padding-left: .5em;
+    line-height: 1.5;
+    color: #ffcc99;
+}
+
+/* LOGO */
+.logo img {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.left-link {
+    display: flex;
+    align-items: center;
+}
+
+.left-link li {
+    display: flex;
+    align-items: center;
+}
+#feed-container {
+    max-width: 700px;
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.post-card {
+    background-color: #1b2737; /* Dark blue background from image */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #2d3d50;
+    color: #0A0909;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.post-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+    border: 2px solid #3498db; /* Blue border like the UI */
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-meta {
+    font-size: 0.8rem;
+    color: #8899a6; /* Muted text color */
+}
+
+.post-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #0A0909;
+    word-wrap: break-word;
+}
+/* Container for the whole timeline */
+.timeline-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* The Individual Post Card */
+.post-card {
+    background: #ffcccc;
+    border: 1px solid #e1e8ed;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+
+.post-card:hover {
+    border-color: #1DA1F2; /* Highlights post on hover */
+}
+
+/* Header Section (Name and Date) */
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-right: 12px;
+}
+
+.post-date {
+    font-size: 0.85rem;
+    color: #657786;
+}
+
+/* The actual post content */
+.post-body p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #1c1e21;
+    margin: 0;
+}
